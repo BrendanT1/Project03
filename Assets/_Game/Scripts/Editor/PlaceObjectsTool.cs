@@ -156,4 +156,5 @@ public class PlaceObjectsTool : EditorTool
         menu.AddItem(new GUIContent($"Pick {picked.name}"), false, () => { _prefabObjectField.value = picked; });
         menu.ShowAsContext();
     }
+
 }
